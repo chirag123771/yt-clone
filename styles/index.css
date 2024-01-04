@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: black;
+}
+
+
+#videos-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color: rgb(255, 255, 255);
+    justify-content:space-between;
+    margin-top: 5px;
+    
+    
+}
+
+#thumbnail{
+    border-radius: 30px;
+    object-fit: cover;
+    max-width: 80%;
+    max-height: 80%;
+    
+    
+}
+
+.main-container{
+    display: flex;
+    
+
+}
+
+.aside{
+    
+    color: white;
+    background-color: black;
+    height: 100%;
+    position: sticky;
+    background: black;
+    top: 40px;
+    
+    
+}
+
+.video-info{
+    padding: 20px;
+    
+
+}
+
+.channel-avatar img{
+    width:50px;
+    height: 50px;
+    
+}
+
+.upper-aside{
+    margin-top: 15px;
+    
+    border-bottom: 1px solid #282828;
+}
+
+.text{
+    
+    margin-left: 14px;
+    
+}
+
+.inner-upper-aside{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.inner-upper-aside:hover{
+    background-color: #282828;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.video-description{
+    display: flex;
+}
+
+.channel-avatar{
+    margin-top: 20px;
+}
+
+/* @media only screen and (max-width: 800px)  {
+    #videos-container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: flex-start;
+        
+        
+    }
+
+    .aside{
+        display: none;
+    }
+    .main-container{
+        justify-content: center;
+    }
+
+}
+@media only screen and (min-width: 801px) and (max-width: 1200px)  {
+    #videos-container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-start;
+        
+        
+    }
+
+    .aside{
+        display: none;
+    }
+    .main-container{
+        justify-content: center;
+    }
+
+} */
+
+
+
+
+
+/* @media only screen and (max-width: 600px)  {
+    #videos-container{
+
+        grid-template-columns:1fr; ;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1100px)  {
+    #videos-container{
+
+        grid-template-columns:1fr 1fr; ;
+    }
+}
+
+@media only screen and (min-width: 1101px)  {
+    #videos-container{
+
+        grid-template-columns:1fr 1fr 1fr; ;
+    }
+
+} */
+
